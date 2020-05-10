@@ -1,10 +1,8 @@
 import * as discord from "discord.js"
+require('dotenv').config()
 import * as plugins from "./plugins"
 
-
-
 const client = new discord.Client()
-
 
 // client.on("ready", async () => {
 // })
@@ -18,10 +16,4 @@ client.on("message", async (msg) => {
 		}
 	}
 });
-
-
-
-
-
-
 client.login(process.env.DISCORD_TOKEN)
