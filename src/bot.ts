@@ -24,4 +24,4 @@ client.on("message", async (msg) => {
 
 
 
-client.login("NzAwNjcwNDkwMzY0MjE1MzM2.XpmWzw.bzNxSeaNT3uHHZ-ThJuoOEA5oOQ")
+client.login(process.env.DISCORD_TOKEN)
