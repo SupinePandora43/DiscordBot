@@ -1,0 +1,6 @@
+{
+    "python.pythonPath": "C:\\Program Files\\Python38\\python.exe",
+    "python.linting.enabled": true,
+	"python.formatting.provider": "black",
+	//C:\Users\Дом\.flake8
+}

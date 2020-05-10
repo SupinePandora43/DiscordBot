@@ -1,0 +1,17 @@
+{
+	"compilerOptions": {
+		"target": "ESNext",
+		"module": "CommonJS",
+		"lib": [
+			"dom",
+			"ESNext"
+		],
+		//   "types": ["node"],
+		// "allowSyntheticDefaultImports": false,
+		"esModuleInterop": true,
+		"sourceMap": true,
+		"skipLibCheck": true,
+		"outDir": "out",
+		"removeComments": true
+	}
+}
