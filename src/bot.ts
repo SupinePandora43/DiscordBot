@@ -1,5 +1,4 @@
 console.log(1)
-quit()
 
 import * as discord from "discord.js"
 require('dotenv').config()
