@@ -1,11 +1,12 @@
 {
 	"compilerOptions": {
-		"target": "ESNext",
+		"target": "ES2019",
 		"module": "CommonJS",
 		"lib": [
-			"dom",
-			"ESNext"
+			"DOM",
+			"ES2019"
 		],
+		"types": [ "node" ],
 		//   "types": ["node"],
 		// "allowSyntheticDefaultImports": false,
 		"esModuleInterop": true,
