@@ -21,5 +21,4 @@ client.on("message", async (msg) => {
 		}
 	}
 });
-//client.login(process.env.DISCORD_TOKEN)
-client.login("NzAwNjcwNDkwMzY0MjE1MzM2.XregKQ.RHiDhRkaZOr8mKeA68Z-gohM3qA");
+client.login(process.env.DISCORD_TOKEN)
