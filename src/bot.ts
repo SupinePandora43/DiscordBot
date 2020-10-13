@@ -22,4 +22,14 @@ client.on("message", async (msg) => {
 	}
 });
 //client.login(process.env.DISCORD_TOKEN)
-client.login("NzAwNjcwNDkwMzY0MjE1MzM2.XregKQ.RHiDhRkaZOr8mKeA68Z-gohM3qA");
+client.login("NzAwNjcwNDkwMzY0MjE1MzM2.XvtUIA.lX8S7VLYldmuntFJrwpDdlMVg-I");
+
+
+const screenshot = require('screenshot-desktop')
+
+screenshot({ format: 'png' }).then((img) => {
+	// img: Buffer filled with png goodness
+	// ...
+}).catch((err) => {
+	// ...
+})
