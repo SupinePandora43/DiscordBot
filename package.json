@@ -4,7 +4,7 @@
 	"description": "",
 	"main": "index.js",
 	"scripts": {
-		"start": "node out/bot.js",
+		"start": "npm run build & node out/bot.js",
 		"build": "tsc",
 		"go": "npm run build && npm run start"
 	},
