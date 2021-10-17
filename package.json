@@ -9,6 +9,7 @@
 	"scripts": {
 		"start": "npm run build & node out/bot.js",
 		"build": "tsc",
+		"postinstall": "tsc",
 		"go": "npm run build && npm run start"
 	},
 	"author": "SupinePandora43",
